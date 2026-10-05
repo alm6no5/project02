@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+}
+
+.card {
+    width: 300px;
+
+    padding: 30px;
+
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+    text-align: center;
+
+    transition: transform 0.3s;
+}
+
+.card:hover {
+    transform: translateY(-8px) scale(1.05);
+}
+
+button {
+    padding: 10px 20px;
+
+    transition: transform 0.3s;
+}
+
+button:hover {
+    transform: translateY(-8px) scale(1.05);
+}
